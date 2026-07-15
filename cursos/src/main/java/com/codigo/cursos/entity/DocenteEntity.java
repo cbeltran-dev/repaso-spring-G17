@@ -26,5 +26,7 @@ public class DocenteEntity {
     @Column(nullable = false, length = 120, unique = true)
     private String email;
 
+//    @OneToMany(mappedBy = "docente")
+//    private CursoEntity curso;
 
 }
